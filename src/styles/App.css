@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5px;
+    background: linear-gradient(whitesmoke, #ffdead);
+}
+
+/* CSS For Header */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 35%;
+    height: 20vh;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for Content */
+.container {
+    height: 110vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.left-container {
+    width: 30%;
+    height: 100vh;
+    /* border: 2px solid blue; */
+}
+
+.left-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-container {
+    /* border: 2px solid blue; */
+    width: 65%;
+    height: 100vh;
+}
+
+.right-container ul {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.award img {
+    width: 100%;
+    height: 100%;
+}
+
+.new-container h5 {
+    padding-left: 20px;
+    /* border: 2px solid blue; */
+}
+
+.highlight {
+    font-weight: bold;
+    background: none;
+}
+
+
+.project_img {
+    width: 75%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.project img{
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+hr {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    border: none;
+    background: red;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.project-bottom {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    /* border: 2px solid blue; */
+    margin-bottom: 20px;
+}
+
+.project-bottom h3 {
+    margin: 25px;
+}
+
+.project-bottom h3 p {
+    margin-bottom: 30px;
+}
+
+span {
+    display: inline-block;
+    border: 1px solid rgb(236, 36, 14);
+    height: 10px;
+}
+
+/* CSS for Footer */
+.footer {
+    background: rgb(236, 36, 14);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    background-color: rgb(236, 36, 14);
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for responsive page */
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 58%;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 20vh;
+        margin: 0 auto;
+    }
+
+    .right-container{
+        margin-top: 55px;
+        height: 70vh;
+    }
+
+    .container {
+        height: 70vh;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .left-container{
+        width: 30%;
+        height: 70vh;
+    }
+    .project_img {
+        width: 88%;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .footer {
+        background: rgb(236, 36, 14);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .icon {
+        background: rgb(236, 36, 14);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        width: 56%;
+        margin-top: 10px;
+    }
+    span {
+        height: 10px;
+    }
+}
